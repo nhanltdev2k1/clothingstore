@@ -21,7 +21,7 @@ include("title_meta/title_meta.php");
 <!DOCTYPE html>
 
 <html lang="en">
-<base href="http://localhost:8080/shopfull/">
+<base href="http://localhost:8080/clothingstore/">
 
 <head>
 

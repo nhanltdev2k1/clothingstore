@@ -172,7 +172,7 @@
                                                 <div class="product-details">
                                                     <div class="title-wrap">
                                                         <p class="product-title" style="color: #000;">
-                                                            <a href="<?php echo "$link"; ?>"><?php echo "$tieude_en"; ?></a>
+                                                            <a href="<?php echo "$link"; ?>"><?php echo "$tieude"; ?></a>
                                                         </p>
                                                         <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
                                                                 class="icon-heart"></i></a>

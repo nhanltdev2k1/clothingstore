@@ -8330,6 +8330,9 @@ body:not(.loaded) > :not(.loading-overlay) * {
   color: #fff;
 }
 p {
+
+  font-size: 1.7rem;
+  color: #000;
   margin-bottom: 1.5rem;
 }
 ol,
@@ -11753,6 +11756,8 @@ footer .contact-widget a {
   content: "";
 }
 .post-content p {
+  font-size: 15px;
+  color: #777;
   margin-bottom: 7px;
 }
 .post-comment {
@@ -11802,7 +11807,7 @@ footer .contact-widget a {
   font-size: 2rem;
 }
 .single .post-share {
-  margin-bottom: 2.4rem;
+  margin-bottom: 3.4rem;
 }
 .single .post-share h3 {
   margin-bottom: 2.2rem;
@@ -11838,7 +11843,6 @@ footer .contact-widget a {
   -ms-flex-direction: column;
   flex-direction: column;
   margin-bottom: 2.6rem;
-  padding: 2.8rem 0;
 }
 .post-share h3 {
   margin-right: 2rem;
@@ -11847,8 +11851,7 @@ footer .contact-widget a {
   color: #fff;
 }
 .post-author {
-  margin-bottom: 2.2rem;
-  padding-bottom: 2.7rem;
+padding-bottom: 2.7rem;
 }
 .post-author:after {
   display: block;

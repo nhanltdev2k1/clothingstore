@@ -23,7 +23,7 @@
                         <li class="active">
                             <a href="trang-chu">Trang Chủ</a>
                         </li>
-                        <li><a href="gioithieu/">Giới Thiệu</a></li>
+                        <li><a href="gioithieu/tong-quan-thong-tin-website">Giới Thiệu</a></li>
                         <li>
                             <a href="danhmuc">Sản Phẩm</a>
                             <div class="megamenu megamenu-fixed-width">

@@ -10,7 +10,7 @@ include("title_meta/title_meta.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<base href="http://localhost:8080/shopfull/">
+<base href="http://localhost:8080/clothingstore/">
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

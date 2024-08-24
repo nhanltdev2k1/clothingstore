@@ -71,13 +71,13 @@
                                 echo "<div >
                             <p> $tieude</p>
                     		<p> $mota</p>
-                                <h2 style='padding: 0px;margin: 0px;font-size: 0px;line-height: 0px;color: #fff;'></i><a href='$link'>$tieude_en </a></h2> 	
+                                <h2 style='padding: 0px;margin: 0px;font-size: 0px;line-height: 0px;color: #fff;'></i><a href='$link'>$tieude_en </a></h2>
                                 <div style='line-height: 15px;  font-size: 14px; text-align: center; width:100%; height:auto; padding-bottom: 20px;'>
                             	 $hinhanh </div>
-                        
+
                                $noidung
                          	<h3 style='font-size:0px; color:#fff; padding:0px;><a href='$link'>$tukhoa </a></h3>
-                     
+
                         </div>";
                                 echo " </table>";
                                 echo "</td>";
@@ -306,13 +306,13 @@
             $(".pinBox").pinBox({
                 //default 0px
                 Top: '30px',
-                //default '.container' 
+                //default '.container'
                 Container: '#pinBoxContainer',
-                //default 20 
+                //default 20
                 ZIndex: 20,
                 //default '767px' if you disable pinBox in mobile or tablet
                 MinWidth: '1170px'
-                //events if scrolled or window resized 
+                //events if scrolled or window resized
             });
 
         });
