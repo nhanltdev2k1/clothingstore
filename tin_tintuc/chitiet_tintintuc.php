@@ -25,7 +25,63 @@
                     <li class="breadcrumb-item active" aria-current="page"><?php echo "$ten" ?></li>
                 </ol>
             </nav>
+            <div class="main-container mt-3">
+                <div class="container-fluid">
+                    <div class="category-list mb-2 mb-md-0" id="category-list">
+                        <ul class="nav category-list-nav">
+                            <li class="nav-item green">
+                                <a href="#cat-1" class="nav-link">
+                                    <span class="cat-list-icon">
+                                        <img src="hinhmenu/icon/couple.webp" alt="Shirt Icon" class="img-radius">
+                                    </span>
+                                    <span class="cat-list-text">Đồ Đôi</span>
+                                </a>
+                            </li>
+                            <li class="nav-item orange">
+                                <a href="#cat-2" class="nav-link">
+                                    <span class="cat-list-icon">
+                                        <img src="hinhmenu/icon/family.webp" alt="Shirt Icon" class="img-radius">
+                                    </span>
+                                    <span class="cat-list-text">Đồ Cho Gia Đình</span>
+                                </a>
+                            </li>
+                            <li class="nav-item green">
+                                <a href="#cat-3" class="nav-link">
+                                    <span class="cat-list-icon">
+                                        <img src="hinhmenu/icon/t-shirt.webp" alt="Shirt Icon" class="img-radius">
+                                    </span>
+                                    <span class="cat-list-text">Áo Thun Form Rộng</span>
+                                </a>
+                            </li>
+                            <li class="nav-item yellow">
+                                <a href="#cat-4" class="nav-link">
+                                    <span class="cat-list-icon">
+                                        <img src="hinhmenu/icon/t-shirt-girl.webp" alt="Shirt Icon" class="img-radius">
+                                    </span>
+                                    <span class="cat-list-text">Áo Thun Nữ</span>
+                                </a>
+                            </li>
+                            <li class="nav-item gray">
+                                <a href="#cat-5" class="nav-link">
+                                    <span class="cat-list-icon">
+                                        <img src="hinhmenu/icon/short.webp" alt="Shirt Icon" class="img-radius">
+                                    </span>
+                                    <span class="cat-list-text">Quần Ngắn</span>
+                                </a>
+                            </li>
+                            <li class="nav-item lightblue">
+                                <a href="#cat-6" class="nav-link">
+                                    <span class="cat-list-icon">
+                                        <img src="hinhmenu/icon/trouest.webp" alt="Shirt Icon" class="img-radius">
+                                    </span>
+                                    <span class="cat-list-text">Quần Dài</span>
+                                </a>
+                            </li>
 
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9">

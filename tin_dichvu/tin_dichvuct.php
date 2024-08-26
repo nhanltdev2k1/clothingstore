@@ -287,7 +287,7 @@ class pager
                             <div class="bgphantranga">
                                 <?php
                                 echo "<div align='left' class='phantrang' style='float: left;width: 100%;text-align: right;'> &nbsp;&nbsp;&nbsp;&nbsp;Trang: ";
-                                //echo $pagelist;				  
+                                //echo $pagelist;
                                 //echo $home['paging'];
                                 $pagelist = $p->pageList($_GET['page'], $pages);
                                 echo $pagelist;
