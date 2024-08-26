@@ -1,3 +1,7 @@
+<h1 style="font-size:0px; margin: 0px; height:0px; color:#fff; margin: 0px; padding: 0px;"><a href='https://lovestudiostore.xyz/'>Shop Đồ Đôi Đà Nẵng</a></h1>
+<h2 style="font-size:0px; margin: 0px; height:0px; color:#fff; margin: 0px; padding: 0px;"><a href='https://lovestudiostore.xyz/'>Shop Quần Áo Gia Đình Đà Nẵng</a></h2>
+<h2 style="font-size:0px; margin: 0px; height:0px; color:#fff; margin: 0px; padding: 0px;"><a href='https://lovestudiostore.xyz/'>Shop Áo Thun Form Rộng Đà Nẵng</a></h2>
+
 <body data-spy="scroll" data-target="#category-list" data-offset="71">
     <div class="page-wrapper">
         <main class="main">
@@ -110,10 +114,10 @@
                                         </figure>
                                         <div class="product-details">
                                             <div class="title-wrap">
-                                                <h3 class="product-title">
+                                                <p class="product-title">
                                                     <a href="<?php echo "$link"; ?>"><?php echo "$tieude"; ?></a>
-                                                </h3>
-                                                <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
+                                                </p>
+                                                <a href="#" title="Wishlist" class="btn-icon-wish"><i
                                                         class="icon-heart"></i></a>
                                             </div>
                                             <div class="ratings-container">
@@ -239,7 +243,7 @@
                                                 <p class="product-title" style="color: #000;">
                                                     <a href="<?php echo "$link"; ?>"><?php echo "$tieude"; ?></a>
                                                 </p>
-                                                <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
+                                                <a href="#" title="Wishlist" class="btn-icon-wish"><i
                                                         class="icon-heart"></i></a>
                                             </div>
                                             <div class="ratings-container">
@@ -362,10 +366,10 @@
                                         </figure>
                                         <div class="product-details">
                                             <div class="title-wrap">
-                                                <h3 class="product-title">
+                                                <p class="product-title">
                                                     <a href="<?php echo "$link"; ?>"><?php echo "$tieude"; ?></a>
-                                                </h3>
-                                                <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
+                                                </p>
+                                                <a href="#" title="Wishlist" class="btn-icon-wish"><i
                                                         class="icon-heart"></i></a>
                                             </div>
                                             <div class="ratings-container">
@@ -488,10 +492,10 @@
                                         </figure>
                                         <div class="product-details">
                                             <div class="title-wrap">
-                                                <h3 class="product-title">
+                                                <p class="product-title">
                                                     <a href="<?php echo "$link"; ?>"><?php echo "$tieude"; ?></a>
-                                                </h3>
-                                                <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
+                                                </p>
+                                                <a href="#" title="Wishlist" class="btn-icon-wish"><i
                                                         class="icon-heart"></i></a>
                                             </div>
                                             <div class="ratings-container">
@@ -613,10 +617,10 @@
                                         </figure>
                                         <div class="product-details">
                                             <div class="title-wrap">
-                                                <h3 class="product-title">
+                                                <p class="product-title">
                                                     <a href="<?php echo "$link"; ?>"><?php echo "$tieude"; ?></a>
-                                                </h3>
-                                                <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
+                                                </p>
+                                                <a href="#" title="Wishlist" class="btn-icon-wish"><i
                                                         class="icon-heart"></i></a>
                                             </div>
                                             <div class="ratings-container">
@@ -738,10 +742,10 @@
                                         </figure>
                                         <div class="product-details">
                                             <div class="title-wrap">
-                                                <h3 class="product-title">
+                                                <p class="product-title">
                                                     <a href="<?php echo "$link"; ?>"><?php echo "$tieude"; ?></a>
-                                                </h3>
-                                                <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
+                                                </p>
+                                                <a href="#" title="Wishlist" class="btn-icon-wish"><i
                                                         class="icon-heart"></i></a>
                                             </div>
                                             <div class="ratings-container">

@@ -17,50 +17,29 @@ include("ngon_ngu/chon.php");
 include("title_meta/title_meta.php");
 
 ?>
-
 <!DOCTYPE html>
-
 <html lang="en">
 <base href="http://localhost:8080/clothingstore/">
 
 <head>
-
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
 	<title><?php echo $title_meta; ?></title>
-
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<link href="https://worlddecoranl.com/hinhmenu/logo/icon-ANL.png" rel="shortcut icon" />
-
-	<link rel="canonical" href="https://worlddecoranl.com/" />
-
-	<meta name="twitter:card" content="https://worlddecoranl.com/<?php echo $_SERVER['REQUEST_URI']; ?>" />
-
+	<link href="hinhmenu/icon/icon-lovestudio.png" rel="shortcut icon" />
+	<link rel="canonical" href="https://lovestudiostore.xyz/" />
+	<meta name="twitter:card" content="https://lovestudiostore.xyz/<?php echo $_SERVER['REQUEST_URI']; ?>" />
 	<meta name="keywords" content="<?php echo $key; ?>" />
-
 	<meta name="description" content="<?php echo $dis; ?>" />
-
-	<meta property="og:url" content="https://worlddecoranl.com/<?php echo $_SERVER['REQUEST_URI']; ?>" />
-
+	<meta property="og:url" content="https://lovestudiostore.xyz/<?php echo $_SERVER['REQUEST_URI']; ?>" />
 	<meta property="og:type" content="website" />
-
-	<meta property="og:image:alt" content="https://worlddecoranl.com/<?php echo $product['tieude']; ?>" />
-
-	<meta property="og:title" content="https://worlddecoranl.com/<?php echo $product['tieude']; ?>" />
-
-	<meta property="og:description" content="https://worlddecoranl.com/<?php echo $product['mota']; ?>" />
-
+	<meta property="og:image:alt" content="https://lovestudiostore.xyz/<?php echo $product['tieude']; ?>" />
+	<meta property="og:title" content="https://lovestudiostore.xyz/<?php echo $product['tieude']; ?>" />
+	<meta property="og:description" content="https://lovestudiostore.xyz/<?php echo $product['mota']; ?>" />
 	<meta property="og:image" content="<?php echo $img; ?>" />
-
 	<meta property="og:updated_time" content="1578214368" />
-
-	<meta property="og:image" content="https://worlddecoranl.com/hinhmenu/logo/icon-ANL.png" />
-
+	<meta property="og:image" content="https://lovestudiostore.xyz/hinhmenu/logo/logo.png" />
 	<meta property="og:description" content="<?php echo $dis; ?>" />
-
 
 	<!-- CSS -->
 	<!-- Favicon -->
@@ -90,8 +69,8 @@ include("title_meta/title_meta.php");
 		{
 			"@context": "http://schema.org",
 			"@type": "WebSite",
-			"name": "world decor anl",
-			"url": "https://worlddecoranl.com"
+			"name": "love studio",
+			"url": "https://lovestudiostore.xyz"
 		}
 	</script>
 </head>

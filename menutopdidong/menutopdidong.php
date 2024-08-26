@@ -68,10 +68,9 @@
                                             </figure>
                                             <i>OFF</i>
                                             <div class="banner-content">
-                                                <h4>
+                                                <p>
                                                     <span class="">Sale</span><br />
-                                                    <b class="">50%</b>
-                                                </h4>
+                                                </p>
                                             </div>
                                             <a href="category.html" class="btn btn-sm btn-dark">SHOP NOW</a>
                                         </div>

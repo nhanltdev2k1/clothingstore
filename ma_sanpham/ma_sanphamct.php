@@ -1,5 +1,7 @@
-﻿<?php
-
+﻿<h1 style="font-size:0px; margin: 0px; height:0px; color:#fff; margin: 0px; padding: 0px;"><a href='https://lovestudiostore.xyz/'>Shop Thời Trang Nam Nữ Đà Nẵng</a></h1>
+<h2 style="font-size:0px; margin: 0px; height:0px; color:#fff; margin: 0px; padding: 0px;"><a href='https://lovestudiostore.xyz/'>Shop Áo Thun Oversize Đà Nẵng</a></h2>
+<h2 style="font-size:0px; margin: 0px; height:0px; color:#fff; margin: 0px; padding: 0px;"><a href='https://lovestudiostore.xyz/'>Shop Quần Dài Thời Trang Đà Nẵng</a></h2>
+<?php
 $thamso = $_GET['thamso'];
 $did = $_GET["url"];
 class pager
@@ -78,18 +80,13 @@ class pager
     <div class="page-wrapper">
         <main class="main">
             <div class="container-fluid">
-                <div class="category-banner-container">
-                    <div class="banner category-banner p-0" style="background-color: #f4f4f4;">
-                        <figure>
-                            <img src="hinhmenu/background/banner-sanpham.jpg" alt="banner" width="1685"
-                                height="262">
-                        </figure>
-                    </div>
-                </div>
+                <div class="top-notice text-white">
+                    <img src="hinhmenu/background/banner-sanpham.jpg" alt="Promo Image" class="promo-image">
+                </div><!-- End .top-notice -->
                 <nav aria-label="breadcrumb" class="breadcrumb-nav mb-0">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="demo19.html">Trang Chủ</a></li>
-                        <li class="breadcrumb-item"><a href="demo19.html">Danh Mục Sản Phẩm</a></li>
+                        <li class="breadcrumb-item"><a href="trang-chu">Trang Chủ</a></li>
+                        <li class="breadcrumb-item"><a href="danhmuc">Danh Mục Sản Phẩm</a></li>
                         <?php
                         require('db.php');
                         $did = $_GET["url"];
@@ -200,10 +197,10 @@ class pager
                                 </div><!-- End .toolbox-left -->
                                 <div class="toolbox-right">
                                     <div class="toolbox-item layout-modes">
-                                        <a href="demo19-shop.html" class="layout-btn btn-grid active" title="Grid">
+                                        <a href="#" class="layout-btn btn-grid active" title="Grid">
                                             <i class="icon-mode-grid"></i>
                                         </a>
-                                        <a href="category-list.html" class="layout-btn btn-list" title="List">
+                                        <a href="#" class="layout-btn btn-list" title="List">
                                             <i class="icon-mode-list"></i>
                                         </a>
                                     </div><!-- End .layout-modes -->

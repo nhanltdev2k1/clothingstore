@@ -3,15 +3,15 @@
         <ul>
             <li>
                 <i class="icon-shipped"></i>
-                <h4>MIỄN PHÍ<br />VẬN CHUYỂN</h4>
+                <p class="h4-left">MIỄN PHÍ<br />VẬN CHUYỂN</p>
             </li>
             <li>
-                <i class="icon-us-dollar"></i>
-                <h4>ĐẢM BẢO HOÀN TIỀN<br />100%</h4>
+                <i class=" icon-us-dollar"></i>
+                <p class="h4-left">ĐẢM BẢO HOÀN TIỀN<br />100%</p>
             </li>
             <li>
                 <i class="icon-online-support"></i>
-                <h4>HỖ TRỢ TRỰC TUYẾN<br />24/7</h4>
+                <p class="h4-left">HỖ TRỢ TRỰC TUYẾN<br />24/7</p>
             </li>
         </ul>
 
@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="mega-desc">
-                    <h3 class="mega-title line-height-1 mb-1 ls-n-10">MEGA SALE</h3>
+                    <p class="mega-title line-height-1 mb-1 ls-n-10">MEGA SALE</p>
                     <span class="mega-subtitle line-height-1">HURRY UP!</span>
                 </div>
             </div>
@@ -39,23 +39,24 @@
     <!-- End .widget -->
 
     <div class="widget widget-featured">
-        <h3 class="widget-title">SẢN PHẨM NỖI BẬT</h3>
+        <p class="widget-title">SẢN PHẨM NỖI BẬT</p>
 
         <div class="widget-body">
             <div class="featured-col">
                 <?php
                 require('db.php');
-                $tv = "SELECT * FROM (SELECT * FROM tin_dichvu ORDER BY id DESC LIMIT 100) as recent_news ORDER BY RAND() LIMIT 3";
+                $tv = "SELECT * FROM (SELECT * FROM ma_sanpham ORDER BY id DESC LIMIT 100) as recent_news ORDER BY RAND() LIMIT 3";
                 $tv_1 = mysqli_query($link, $tv);
                 $a_tv_1 = mysqli_query($link, $tv);
                 ?>
                 <?php
                 while ($row = mysqli_fetch_array($tv_1)) {
-                    $link_hinh = "HinhCTSP/Hinhdichvu/$row[hinhanh]";
+                    $link_hinh = "HinhCTSP/HinhSanPham/$row[hinhanh]";
                     $id = "$row[id]";
                     $tieude_en = "$row[tieude_en]";
                     $tieude = "$row[tieude]";
-                    $title = "$row[title]";
+                    $gia = "$row[gia]";
+                    $gia_formatted = number_format($gia, 0, ',', '.');
                     $mota = "$row[mota]";
                     $ngay = "$row[ngay]";
                     $url = $row['linkurl'];
@@ -69,7 +70,7 @@
                             </a>
                         </figure>
                         <div class="product-details">
-                            <h3 class="product-title"> <a href="demo19-product.html"><?php echo "$tieude_en"; ?></a> </h3>
+                            <div class="product-title"> <a href="<?php echo "$link"; ?>"><?php echo "$tieude"; ?></a> </div>
                             <div class="ratings-container">
                                 <div class="product-ratings">
                                     <span class="ratings" style="width:60%"></span>
@@ -80,7 +81,7 @@
                             </div>
                             <!-- End .product-container -->
                             <div class="price-box">
-                                <span class="product-price"><?php echo "$title"; ?> vnđ</span>
+                                <span class="product-price"><?php echo "$gia"; ?> vnđ</span>
                             </div>
                             <!-- End .price-box -->
                         </div>

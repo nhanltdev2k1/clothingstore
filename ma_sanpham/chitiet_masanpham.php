@@ -1,11 +1,15 @@
+<h1 style="font-size:0px; margin: 0px; height:0px; color:#fff; margin: 0px; padding: 0px;"><a href='https://lovestudiostore.xyz/'>Shop Áo Thun Nữ Đẹp Đà Nẵng</a></h1>
+<h2 style="font-size:0px; margin: 0px; height:0px; color:#fff; margin: 0px; padding: 0px;"><a href='https://lovestudiostore.xyz/'>Shop Quần Ngắn Nam Nữ Đà Nẵng</a></h2>
+<h2 style="font-size:0px; margin: 0px; height:0px; color:#fff; margin: 0px; padding: 0px;"><a href='https://lovestudiostore.xyz/'>Shop Quần Dài Thời Trang Đà Nẵng</a></h2>
+
 <body data-spy="scroll" data-target="#category-list">
     <div class="page-wrapper">
         <main class="main">
             <div class="container-fluid">
                 <nav aria-label="breadcrumb" class="breadcrumb-nav mb-0">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="demo19.html">Trang Chủ</a></li>
-                        <li class="breadcrumb-item"><a href="demo19-shop.html">Danh Mục Sản Phẩm</a></li>
+                        <li class="breadcrumb-item"><a href="trang-chu">Trang Chủ</a></li>
+                        <li class="breadcrumb-item"><a href="danhmuc">Danh Mục Sản Phẩm</a></li>
                         <?php
                         require('db.php');
                         //$id = intval(preg_replace('/[^a-z0-9]+/i', '', $_GET["id"]));
@@ -134,7 +138,7 @@
 
 
                                             <div class="col-md-6 product-single-details">
-                                                <h1 class="product-title"><?php echo $tieude; ?></h1>
+                                                <p class="product-title"><?php echo $tieude; ?></p>
 
                                                 <div class="ratings-container">
                                                     <div class="product-ratings">
@@ -153,7 +157,6 @@
                                                 <div class="product-desc">
                                                     <p><?php echo $mota; ?></p>
                                                 </div>
-
                                                 <ul class="single-info-list">
                                                     <li>
                                                         Xuất Xứ: <strong>Việt Nam</strong>
@@ -234,7 +237,7 @@
                     <!-- End .col-lg-9 -->
 
                     <div class="products-section py-0">
-                        <h2 class="section-title m-b-4">SẢN PHẨM LIÊN QUAN</h2>
+                        <p class="h2-section-title m-b-4">SẢN PHẨM LIÊN QUAN</p>
 
                         <div class="products-slider owl-carousel owl-theme dots-top dots-small" data-owl-options="{
                             'responsive': {
@@ -296,10 +299,10 @@
                                     </figure>
                                     <div class="product-details">
                                         <div class="title-wrap">
-                                            <h3 class="product-title">
+                                            <p class="product-title">
                                                 <a href="<?php echo "$link"; ?>"><?php echo "$tieude"; ?></a>
-                                            </h3>
-                                            <a href="wishlist.html" title="Add to Wishlist" class="btn-icon-wish"><i class="icon-heart"></i></a>
+                                            </p>
+                                            <a href="#" title="Add to Wishlist" class="btn-icon-wish"><i class="icon-heart"></i></a>
                                         </div>
                                         <div class="ratings-container">
                                             <div class="product-ratings">
@@ -312,9 +315,7 @@
                                         </div>
                                     </div>
                                 </div>
-
                             <?php } ?>
-
                         </div>
                     </div>
                 </div>

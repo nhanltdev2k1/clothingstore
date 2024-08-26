@@ -1,30 +1,26 @@
 <body>
     <div class="page-wrapper">
-        <div class="top-notice bg-primary text-white">
-            <img src="hinhmenu/background/banner-tintuc.jpg" alt="Promo Image" class="promo-image">
-            <button title="Close (Esc)" type="button" class="mfp-close">×</button>
-
-        </div><!-- End .top-notice -->
-
         <main class="main">
-            <nav aria-label="breadcrumb" class="breadcrumb-nav mb-50">
-                <ol class="breadcrumb">
-                    <?php
-                    require('db.php');
-                    //$id = intval(preg_replace('/[^a-z0-9]+/i', '', $_GET["id"]));
-                    $id = $_GET['url'];
-                    $tv = "select * from tin_tintuc where linkurl like '%" . $id . "%' order by id ";
-                    $tv_1 = mysqli_query($link, $tv);
-                    $a_tv_1 = mysqli_query($link, $tv);
-                    $tv_2 = mysqli_fetch_array($tv_1);
-                    $thuocloai = "$tv_2[thuocloai]";
-                    $ten = "$tv_2[tieude]";
-                    ?>
-                    <li class="breadcrumb-item"><a href="trang-chu">Trang Chủ</a></li>
-                    <li class="breadcrumb-item"><a href="tintuc/">Tin Tức</a></li>
-                    <li class="breadcrumb-item active" aria-current="page"><?php echo "$ten" ?></li>
-                </ol>
-            </nav>
+            <div class="container-fluid">
+                <nav aria-label="breadcrumb" class="breadcrumb-nav mb-0">
+                    <ol class="breadcrumb">
+                        <?php
+                        require('db.php');
+                        //$id = intval(preg_replace('/[^a-z0-9]+/i', '', $_GET["id"]));
+                        $id = $_GET['url'];
+                        $tv = "select * from tin_tintuc where linkurl like '%" . $id . "%' order by id ";
+                        $tv_1 = mysqli_query($link, $tv);
+                        $a_tv_1 = mysqli_query($link, $tv);
+                        $tv_2 = mysqli_fetch_array($tv_1);
+                        $thuocloai = "$tv_2[thuocloai]";
+                        $ten = "$tv_2[tieude]";
+                        ?>
+                        <li class="breadcrumb-item"><a href="trang-chu">Trang Chủ</a></li>
+                        <li class="breadcrumb-item"><a href="tintuc/">Tin Tức</a></li>
+                        <li class="breadcrumb-item active" aria-current="page"><?php echo "$ten" ?></li>
+                    </ol>
+                </nav>
+            </div>
             <div class="main-container mt-3">
                 <div class="container-fluid">
                     <div class="category-list mb-2 mb-md-0" id="category-list">
@@ -316,8 +312,5 @@
 
 
 </body>
-
-
-<!-- Mirrored from portotheme.com/html/porto_ecommerce/single.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Aug 2024 01:42:12 GMT -->
 
 </html>

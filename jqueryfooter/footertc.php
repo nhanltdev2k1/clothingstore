@@ -106,9 +106,9 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <ul class="links mb-0">
-                                            <li><a href="demo19-about.html">Đăng Ký</a></li>
-                                            <li><a href="demo19-contact.html">Đăng Nhập</a></li>
-                                            <li><a href="dashboard.html">Tài Khoản</a></li>
+                                            <li><a href="#">Đăng Ký</a></li>
+                                            <li><a href="#">Đăng Nhập</a></li>
+                                            <li><a href="#">Tài Khoản</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
@@ -163,7 +163,7 @@
                                                 $url = $tv_2['linkurl'];
                                                 $link = str_replace("?", "", strtolower("thongtin/$url"));
                                             ?>
-                                                <li><a href="<?php echo "$link"; ?>"><?php echo "$tieude_en"; ?></a></li>
+                                                <h3 style="color: #777; font-size: 1.5rem; font-weight: 100;"><a href="<?php echo "$link"; ?>"><?php echo "$tieude_en"; ?></a></h3>
                                             <?php } ?>
                                         </ul>
                                     </div>
@@ -200,11 +200,9 @@
                     </div>
                 </div>
                 <div class="container-fluid d-sm-flex align-items-center">
-
                     <div class="footer-right">
                         <span class="footer-policy">©lovestudio.com . 2024. All Rights Reserved</span>
                     </div>
-
                     <div class="footer-right ml-auto mt-1 mt-sm-0">
                         <div class="payment-icons mr-0">
                             <span class="payment-icon visa"
@@ -217,9 +215,7 @@
                                 style="background-image:  url(hinhmenu/payments/payment-verisign.svg)"></span>
                         </div>
                     </div>
-
                 </div>
-
             </div><!-- End .footer-bottom -->
         </footer>
     </div>

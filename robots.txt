@@ -4,4 +4,4 @@ Disallow: /fckeditor/
 Disallow: */fckeditor/*
 Disallow: /feed/
 Disallow: /_notes/
-Sitemap: https://worlddecoranl.com/sitemap.xml
+Sitemap: https://lovestudiostore.xyz/sitemap.xml

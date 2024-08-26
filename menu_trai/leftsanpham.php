@@ -1,9 +1,9 @@
 <div class="sidebar-wrapper">
     <div class="widget">
-        <h3 class="widget-title">
+        <p class="widget-title">
             <a data-toggle="collapse" href="#widget-body-2" role="button"
                 aria-expanded="true" aria-controls="widget-body-2">Loại </a>
-        </h3>
+        </p>
 
         <div class="collapse show" id="widget-body-2">
             <div class="widget-body">
@@ -73,10 +73,10 @@
     </div><!-- End .widget -->
 
     <div class="widget widget-color">
-        <h3 class="widget-title">
+        <p class="widget-title">
             <a data-toggle="collapse" href="#widget-body-4" role="button"
                 aria-expanded="true" aria-controls="widget-body-4">Màu</a>
-        </h3>
+        </p>
 
         <div class="collapse show" id="widget-body-4">
             <div class="widget-body pb-0">
@@ -102,10 +102,10 @@
     </div><!-- End .widget -->
 
     <div class="widget widget-size">
-        <h3 class="widget-title">
+        <p class="widget-title">
             <a data-toggle="collapse" href="#widget-body-5" role="button"
                 aria-expanded="true" aria-controls="widget-body-5">Kích Thước</a>
-        </h3>
+        </p>
 
         <div class="collapse show" id="widget-body-5">
             <div class="widget-body">
@@ -120,13 +120,13 @@
     </div><!-- End .widget -->
 
     <div class="widget widget-featured">
-        <h3 class="widget-title">Sản Phẩm Yêu Thích</h3>
+        <p class="widget-title">Sản Phẩm Yêu Thích</p>
 
         <div class="widget-body">
             <div class="featured-col">
                 <?php
                 require('db.php');
-                $tv = "SELECT * FROM (SELECT * FROM tin_dichvu ORDER BY id DESC LIMIT 100) as recent_news ORDER BY RAND() LIMIT 3";
+                $tv = "SELECT * FROM (SELECT * FROM ma_sanpham ORDER BY id DESC LIMIT 100) as recent_news ORDER BY RAND() LIMIT 3";
                 $tv_1 = mysqli_query($link, $tv);
                 $a_tv_1 = mysqli_query($link, $tv);
                 ?>
@@ -144,15 +144,15 @@
                 ?>
                     <div class="product-default left-details product-widget">
                         <figure>
-                            <a href="demo19-product.html">
+                            <a href="<?php echo "$link"; ?>">
                                 <img src="<?php echo "$link_hinh"; ?>"
                                     width="75" height="75" alt="product" />
                             </a>
                         </figure>
                         <div class="product-details">
-                            <h3 class="product-title">
-                                <a href="demo19-product.html"><?php echo "$tieude_en"; ?></a>
-                            </h3>
+                            <p class="product-title">
+                                <a href="<?php echo "$link"; ?>"><?php echo "$tieude_en"; ?></a>
+                            </p>
                             <div class="ratings-container">
                                 <div class="product-ratings">
                                     <span class="ratings" style="width:75%"></span>

@@ -66,22 +66,21 @@
         }
     }
     ?>
-    <div class="container-fluid">
-        <div class="category-banner-container">
-            <div class="banner category-banner p-0" style="background-color: #f4f4f4;">
-                <figure>
-                    <img src="hinhmenu/background/banner-tintuc.jpg" alt="banner" width="1685"
-                        height="262">
-                </figure>
-            </div>
-        </div>
+    <div class="page-wrapper">
+        <main class="main">
+            <div class="container-fluid">
 
-        <nav aria-label="breadcrumb" class="breadcrumb-nav mb-50">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="demo19.html">Trang Chủ</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Tin Tức</li>
-            </ol>
-        </nav>
+                <div class="top-notice text-white">
+                    <img src="hinhmenu/background/banner-sanpham.jpg" alt="Promo Image" class="promo-image">
+                </div><!-- End .top-notice -->
+                <nav aria-label="breadcrumb" class="breadcrumb-nav mb-0">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="trang-chu">Trang Chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Tin Tức</li>
+                    </ol>
+                </nav>
+            </div>
+        </main>
     </div>
     <div class="main-container mt-3">
         <div class="container-fluid">
